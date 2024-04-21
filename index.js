@@ -42,7 +42,7 @@ app.use("/v1/product", productRoute)
 app.use("/v1/user", userRoute)
 
 // Kết nối cổng và bắt đầu server
-const PORT =  3000;
+const PORT =  8000;
 app.listen(PORT, () => {
     connect();
   console.log(`Server đang chạy trên cổng ${PORT}`);
